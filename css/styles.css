@@ -1,0 +1,81 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(257, 40%, 49%);
+  width: 1440px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+p {
+  color: white;
+  font-size: 14px;
+  opacity: 0.7;
+  line-height: 2;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  width: 12%;
+}
+
+.facebook {
+  width: 30px;
+  padding: 5px;
+}
+
+.twitter {
+  width: 30px;
+  padding: 5px;
+}
+
+.instagram {
+  width: 30px;
+  padding: 5px;
+}
+
+.middle-container1 {
+  position: absolute;
+  left: 110px;
+  top: 150px;
+}
+
+.middle-container2 {
+  position: absolute;
+  right: 150px;
+  top: 200px;
+}
+
+.bottom-container {
+  position: absolute;
+  top: 700px;
+  right: 40px;
+}
+
+.butn {
+  background: white;
+  background-image: -webkit-linear-gradient(top, white, white);
+  background-image: -moz-linear-gradient(top, white, white);
+  background-image: -ms-linear-gradient(top, white, white);
+  background-image: -o-linear-gradient(top, white, white);
+  background-image: linear-gradient(to bottom, white, white);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: hsl(257, 40%, 49%);
+  font-size: 14px;
+  padding: 10px 40px 10px 40px;
+  border: solid hsl(257, 40%, 49%) 2px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.butn:hover {
+  text-decoration: none;
+}
